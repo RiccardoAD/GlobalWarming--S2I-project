@@ -13,6 +13,7 @@ export const Sidebar = ({ onSelect }) => {
         { path: "/co2", label: "CO2", fontClass: "font-light" },
         { path: "/methane", label: "Methane", fontClass: "font-light" },
         { path: "/no2", label: "NO2", fontClass: "font-light" },
+        { path: "/ocean", label: "Ocean", fontClass: "font-light" },
         
     ];
     return (
