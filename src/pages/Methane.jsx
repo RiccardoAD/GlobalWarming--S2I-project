@@ -53,8 +53,8 @@ export const Methane = () => {
     datasets: [
       {
         label: 'Average',
-        backgroundColor: 'rgba(100, 170, 255, 0.5)', // Sfumatura più morbida di blu
-        borderColor: '#1E90FF', // Blu acceso
+        backgroundColor: 'rgba(100, 170, 255, 0.5)', 
+        borderColor: '#1E90FF', 
         borderWidth: 2,
         fill: false,
         pointBorderWidth: 0,
@@ -63,13 +63,13 @@ export const Methane = () => {
       },
       {
         label: 'Trend',
-        backgroundColor: 'rgba(102, 255, 178, 0.5)', // Sfumatura più morbida di verde
-        borderColor: '#32CD32', // Verde lime
+        backgroundColor: 'rgba(102, 255, 178, 0.5)', 
+        borderColor: '#32CD32', 
         borderWidth: 2,
         fill: false,
         pointBorderWidth: 0,
         pointRadius: 0,
-        lineTension: 0.4, // Set the curvature of the lines
+        lineTension: 0.4, 
       }
     ]
   });
