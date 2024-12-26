@@ -2,12 +2,17 @@ import './App.css'
 import React from 'react';
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import  {Footer}  from './components/Footer';
-import  {Home} from './pages/Home';
-import { Sidebar } from './components/SideBar';
-import { HiMenu, HiChevronLeft } from 'react-icons/hi';
 import { MdNightsStay, MdWbSunny } from 'react-icons/md';
+import { HiMenu, HiChevronLeft } from 'react-icons/hi';
+
+import  {Footer}  from './components/Footer';
+import { Sidebar } from './components/SideBar';
+
+
 import PropTypes from 'prop-types';
+
+
+import  {Home} from './pages/Home';
 import { Co2 } from './pages/Co2';
 import { Temperature } from './pages/Temperature';
 import { No2 } from './pages/No2';
@@ -80,6 +85,8 @@ function App() {
                   isActive={darkMode}
                 />
               </div>
+
+               {/* aggiungi cambio linua icone  */}
             </div>
 
 
