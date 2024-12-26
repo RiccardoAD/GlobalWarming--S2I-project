@@ -27,7 +27,7 @@ const updateCo2Data = (prevData, data) => ({
 });
 const Impacts = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impatti</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-[#c0d6e4]'>Impatti</h2>
     <ul className='list-none'>
       <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Acidificazione degli oceani</li>
       <li className='mb-1'><FontAwesomeIcon icon={faWater} className='mr-2 text-sm' />Scioglimento dei ghiacciai e innalzamento del livello del mare</li>
@@ -38,7 +38,7 @@ const Impacts = () => (
 );
 const Solutions = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Soluzioni</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-[#c0d6e4]'>Soluzioni</h2>
     <ul className='list-none'>
       <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Limitare le emissioni di CO2 attraverso politiche ambientali</li>
       <li className='mb-1'><FontAwesomeIcon icon={faSun} className='mr-2 text-sm' />Promuovere l{"'"}uso di energie rinnovabili</li>
@@ -79,8 +79,8 @@ export const Co2 = () => {
     });
   }, []);
   return (
-    <div className="md:h-[calc(100vh-56px-2rem)] flex flex-col items-center bg-sky-100 dark:bg-sky-900 rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
-      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">CO2</h1>
+    <div className="md:h-[calc(100vh-56px-2rem)] flex flex-col items-center bg-sky-100 dark:bg-[#5b7a92] rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
+      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-[#c0d6e4] ">CO2</h1>
       <ul className="prose prose-lg max-w-screen-lg">
         <p>
           L{"'"}eccesso di CO2 nell{"'"}atmosfera è una delle principali cause del cambiamento climatico. Questo gas serra, prodotto principalmente dalle attività umane come la combustione di combustibili fossili, la deforestazione e l{"'"}agricoltura, trattiene il calore nell{"'"}atmosfera, portando ad un aumento delle temperature globali.

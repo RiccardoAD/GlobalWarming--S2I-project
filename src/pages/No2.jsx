@@ -27,7 +27,7 @@ const updateNo2Data = (prevData, data) => ({
 });
 const Impacts = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Impatti</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-[#c0d6e4]'>Impatti</h2>
     <ul className='list-none'>
       <li className='mb-1'><FontAwesomeIcon icon={faExclamationTriangle} className='mr-2 text-sm' />Contributo all{"'"}effetto serra</li>
       <li className='mb-1'><FontAwesomeIcon icon={faCar} className='mr-2 text-sm' />Formazione di smog e piogge acide</li>
@@ -38,7 +38,7 @@ const Impacts = () => (
 );
 const Solutions = () => (
   <div>
-    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-cyan-400'>Soluzioni</h2>
+    <h2 className='text-lg md:text-xl font-semibold mb-1 text-blue-900 dark:text-[#c0d6e4]'>Soluzioni</h2>
     <ul className='list-none'>
       <li className='mb-1'><FontAwesomeIcon icon={faWind} className='mr-2 text-sm' />Limitare le emissioni di NO2 attraverso politiche ambientali</li>
       <li className='mb-1'><FontAwesomeIcon icon={faSnowflake} className='mr-2 text-sm' />Promuovere l{"'"}uso di veicoli a basse emissioni o elettrici</li>
@@ -79,8 +79,8 @@ export const No2 = () => {
     });
   }, []);
   return (
-    <div className="md:h-[calc(100vh-56px-2rem)] flex flex-col items-center bg-sky-100 dark:bg-sky-900 rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
-      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-cyan-400">NO2</h1>
+    <div className="md:h-[calc(100vh-56px-2rem)] flex flex-col items-center bg-sky-100 dark:bg-[#5b7a92] rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
+      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-[#c0d6e4]">NO2</h1>
       <ul className="prose max-w-screen-lg">
         <p>
           Il diossido di azoto (NO2) è un gas serra e un inquinante atmosferico che può avere gravi effetti sulla salute umana e sull{"'"}ambiente. È prodotto principalmente dalla combustione di combustibili fossili nei veicoli e nelle centrali elettriche, nonché da processi industriali. La sua presenza nell{"'"}atmosfera può contribuire all{"'"}effetto serra e alla formazione di smog.

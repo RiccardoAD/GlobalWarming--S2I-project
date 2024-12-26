@@ -11,6 +11,8 @@ export const Sidebar = ({ onSelect }) => {
         { path: "/", label: "Home", fontClass: "font-medium" },
         { path: "/temperature", label: "Temperature", fontClass: "font-light" },
         { path: "/co2", label: "CO2", fontClass: "font-light" },
+        { path: "/methane", label: "Methane", fontClass: "font-light" },
+        { path: "/no2", label: "NO2", fontClass: "font-light" },
         
     ];
     return (
@@ -23,7 +25,7 @@ export const Sidebar = ({ onSelect }) => {
                             <Link
                                 onClick={handleItemClick}
                                 to={link.path}
-                                className={`block text-white duration-300 hover:bg-sky-100 hover:text-blue-950 dark:hover:bg-sky-900 dark:hover:text-white hover:shadow-lg p-2 rounded ${link.fontClass}`}>
+                                className={`block text-white duration-300 hover:bg-sky-100 hover:text-blue-950 dark:hover:bg-[#5b7a92] dark:hover:text-white hover:shadow-lg p-2 rounded ${link.fontClass}`}>
                                 {link.label}
                             </Link>
                         </li>
