@@ -10,6 +10,8 @@ import { MdNightsStay, MdWbSunny } from 'react-icons/md';
 import PropTypes from 'prop-types';
 import { Co2 } from './pages/Co2';
 import { Temperature } from './pages/Temperature';
+import { No2 } from './pages/No2';
+import { Methane } from './pages/Methane';
 
 
 function App() {
@@ -87,6 +89,8 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/temperature" element={<Temperature />} />
           <Route path="/co2" element={<Co2 />} />
+          <Route path="/no2" element={<No2 />} />
+          <Route path="/methane" element={<Methane />} />
 
 
         </Routes>
