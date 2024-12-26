@@ -2,7 +2,7 @@ import React from 'react'
 import world from '../assets/img/world.png'
 import worldMbile from '../assets/img/worldMini.png'
 
-const Home = () => {
+ export const Home = () => {
   return (
     <div className='relative h-[calc(100vh-56px-2rem)] flex flex-col md:flex-row items-center rounded ml-2 mr-2 md:mr-4 bg-sky-100 dark:bg-[#5b7a92] shadow-md dark:shadow-slate-900 overflow-hidden'>
       <div className=' md:max-w-md mb-10 md:mb-0 md:ml-[5%] text-center md:text-left text-sm md:text-base ' >
@@ -33,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+
