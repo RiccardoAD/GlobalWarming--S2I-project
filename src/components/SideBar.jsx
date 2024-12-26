@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import logo from '../assets/img/icon.png'
+
 export const Sidebar = ({ onSelect }) => {
     const handleItemClick = () => {
         if (onSelect) {
@@ -19,7 +21,10 @@ export const Sidebar = ({ onSelect }) => {
     return (
         <div className="flex w-72 overflow-hidden">
             <div className="w-full h-auto bg-blue-900 m-2.5 dark:bg-[#22486d] p-6 rounded shadow-md shadow-blue-950 dark:shadow-slate-950">
-                <h2 className="text-3xl font-bold mb-8 text-white">Global Warming</h2>
+                <div className='flex items-center mb-8' >
+                <img src={logo} alt="logo" className='mr-2 w-12 h-12' />
+                <h2 className="text-3xl font-bold  text-white">Eco Vision</h2>
+                </div>
                 <ul className="space-y-4">
                     {links.map(link => (
                         <li key={link.path}>
