@@ -1,7 +1,7 @@
 import React from 'react'
 import world from '../assets/img/world.png'
 import worldMbile from '../assets/img/worldMini.png'
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
  export const Home = () => {
   const { t } = useTranslation();
@@ -11,7 +11,7 @@ import { Trans, useTranslation } from "react-i18next";
       <div className=' md:max-w-md mb-10 md:mb-0 md:ml-[5%] text-center md:text-left text-sm md:text-base ' >
         <h1 className= 'my-6 md:mt-0 text-4xl md:text-7xl font-bold text-blue-900 dark:text-[#c0d6e4]'> {t("home.title")}</h1>
         <p className='mx-6 md:mx-0'>
-        <Trans i18nKey="home.description" components={{ 0: <br />, 1: <br /> }} />
+        { t("home.description")}
           </p>
       </div>
 

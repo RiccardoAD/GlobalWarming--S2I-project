@@ -1,1 +1,5 @@
-
+.text-container {
+  overflow: visible;
+  word-break: break-word;
+  white-space: normal;
+}
