@@ -19,8 +19,10 @@ import { No2 } from './pages/No2';
 import { Methane } from './pages/Methane';
 import { Ocean } from './pages/Ocean';
 
-import './utils/i18n';
+import './i18n';
 import { useTranslation } from 'react-i18next';
+import uk from './assets/img/uk.png'
+import ita from './assets/img/italy.png'
 
 function App() {
 
@@ -95,13 +97,13 @@ function App() {
 
  <div className="flex items-center gap-4">
                 <img 
-                  src="./assets/img/italy.png"
+                  src={uk}
                   alt="Italiano"
                   className="w-6 h-6 cursor-pointer"
                   onClick={() => i18n.changeLanguage('it')} 
                 />
                 <img
-                  src="./assets/img/uk.png" 
+                  src={ita}
                   alt="English"
                   className="w-6 h-6 cursor-pointer"
                   onClick={() => i18n.changeLanguage('en')} 

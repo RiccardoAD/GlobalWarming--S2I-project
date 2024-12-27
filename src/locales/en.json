@@ -1,0 +1,24 @@
+{
+    "home": {
+      "title": "Eco Vision",
+      "description": "Global warming is a phenomenon involving the increase in average terrestrial temperatures. This has serious repercussions on our planet, causing glacier melting, sea-level rise, and extreme climate changes. It is essential to monitor and understand these data to take preventive measures."
+    },
+    "co2": {
+      "title": "CO2 Levels",
+      "description": "Excess CO2 in the atmosphere is one of the main causes of climate change. This greenhouse gas traps heat in the atmosphere, leading to global temperature increases.",
+      "impactsTitle": "Impacts",
+      "solutionsTitle": "Solutions",
+      "impacts": [
+        "Ocean acidification",
+        "Glacier melting and sea-level rise",
+        "Extreme weather events like hurricanes and droughts",
+        "Loss of biodiversity"
+      ],
+      "solutions": [
+        "Limit CO2 emissions through environmental policies",
+        "Promote renewable energy use",
+        "Support carbon capture and storage technologies",
+        "Adopt sustainable consumption and lifestyles"
+      ]
+    }
+  }

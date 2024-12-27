@@ -1,0 +1,24 @@
+{
+    "home": {
+      "title": "Eco Vision",
+      "description": "Il riscaldamento globale è un fenomeno che riguarda l'aumento delle temperature medie terrestri. Questo fenomeno ha gravi ripercussioni sul nostro pianeta, causando scioglimento dei ghiacciai, innalzamento del livello del mare e cambiamenti climatici estremi. È essenziale monitorare e comprendere questi dati per prendere misure preventive."
+    },
+    "co2": {
+      "title": "Livelli di CO2",
+      "description": "L'eccesso di CO2 nell'atmosfera è una delle principali cause del cambiamento climatico. Questo gas serra trattiene il calore nell'atmosfera, portando a un aumento delle temperature globali.",
+      "impactsTitle": "Impatti",
+      "solutionsTitle": "Soluzioni",
+      "impacts": [
+        "Acidificazione degli oceani",
+        "Scioglimento dei ghiacciai e innalzamento del livello del mare",
+        "Eventi climatici estremi come uragani e siccità",
+        "Perdita di biodiversità"
+      ],
+      "solutions": [
+        "Limitare le emissioni di CO2 attraverso politiche ambientali",
+        "Promuovere l'uso di energie rinnovabili",
+        "Supportare la cattura e lo stoccaggio del carbonio",
+        "Adottare stili di vita e modelli di consumo sostenibili"
+      ]
+    }
+  }
