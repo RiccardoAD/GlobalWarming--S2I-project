@@ -89,7 +89,7 @@ export const Methane = () => {
   
   return (
     <div className="md:h-[calc(100vh-56px-2rem)] w-full flex flex-col items-center bg-sky-100 dark:bg-[#5b7a92] rounded p-6 ml-2 mr-2 md:mr-4 shadow-md dark:shadow-slate-900 text-sm md:text-base">
-      <h1 className="text-4xl  font-bold mb-5 text-blue-900 dark:text-[#c0d6e4]">{t("methane.title")}  </h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-5 text-blue-900 dark:text-[#c0d6e4]">{t("methane.title")}  </h1>
       <ul className="prose max-w-screen-lg">
         <p>
         {t("methane.description")}

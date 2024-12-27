@@ -95,7 +95,7 @@ function App() {
 
                
 
- <div className="flex items-center gap-4">
+         <div className="flex  gap-4">
                 <img 
                   src={ita}
                   alt="Italiano"
