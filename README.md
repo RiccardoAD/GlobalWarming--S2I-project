@@ -9,8 +9,9 @@
 The main page of the site features as a introductory section and a sidebar that allows users to select topics of interest and lenguage from italian to english and the dark and light mode.
 
 <p align="center">
-  <img src="src/assets/img/screenshots/homelight.png" alt="Size Limit CLI" width="350">
-  <img src="src/assets/img/screenshots/homedark.png" alt="Size Limit CLI" width="350">
+  
+  <img src="src/assets/img/screenshots/webview.png" alt="Size Limit CLI" width="350">
+  <img src="src/assets/img/screenshots/darkthemeview.png" alt="Size Limit CLI" width="350">
 </p>
 
 # Example page
@@ -18,8 +19,6 @@ The main page of the site features as a introductory section and a sidebar that 
 Each entry in the sidebar corresponds to a specific content, which includes a brief description of the topic, two lists pertaining to impacts, solutions and a chart for data visualization.
 
 <p align="center">
-  <img src="src/assets/img/screenshots/webview.png" alt="Size Limit CLI" width="350">
-  <img src="src/assets/img/screenshots/darkthemeview.png" alt="Size Limit CLI" width="350">
   <img src="src/assets/img/screenshots//mobileview.png" alt="Size Limit CLI" width="350">
 </p>
 
