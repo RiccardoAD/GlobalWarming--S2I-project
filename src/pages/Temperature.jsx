@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { BarChart } from '../components/BarChart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWind, faHandsHelping, faExclamationTriangle, faWater, faSun, faFish, faBug, faTree } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from "react-i18next";
+
 const fetchData = async () => {
   try {
     const response = await axios.get('https://global-warming.org/api/temperature-api');
@@ -48,6 +50,8 @@ const Solutions = () => (
   </div>
 );
 export const Temperature = () => {
+  const { t } = useTranslation();
+
   const [temperatureData, setTemperatureData] = useState({
     labels: [],
     datasets: [

@@ -4,6 +4,9 @@ import { useState, useEffect } from 'react';
 import { LineChart } from '../components/LineChart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWind, faSnowflake, faFlask, faHandsHelping, faExclamationTriangle, faCar, faIndustry, faLungs } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from "react-i18next";
+
+
 const fetchData = async () => {
   try {
     const response = await axios.get('https://global-warming.org/api/nitrous-oxide-api');
@@ -48,6 +51,7 @@ const Solutions = () => (
   </div>
 );
 export const No2 = () => {
+  const { t } = useTranslation();
   const [no2Data, setNo2Data] = useState({
     labels: [],
     datasets: [

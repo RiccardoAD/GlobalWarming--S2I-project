@@ -97,13 +97,13 @@ function App() {
 
  <div className="flex items-center gap-4">
                 <img 
-                  src={uk}
+                  src={ita}
                   alt="Italiano"
                   className="w-6 h-6 cursor-pointer"
                   onClick={() => i18n.changeLanguage('it')} 
                 />
                 <img
-                  src={ita}
+                  src={uk}
                   alt="English"
                   className="w-6 h-6 cursor-pointer"
                   onClick={() => i18n.changeLanguage('en')} 

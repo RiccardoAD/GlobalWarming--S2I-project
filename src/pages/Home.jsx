@@ -1,22 +1,17 @@
 import React from 'react'
 import world from '../assets/img/world.png'
 import worldMbile from '../assets/img/worldMini.png'
+import { Trans, useTranslation } from "react-i18next";
 
  export const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <div className='relative h-[calc(100vh-56px-2rem)] flex flex-col md:flex-row items-center rounded ml-2 mr-2 md:mr-4 bg-sky-100 dark:bg-[#5b7a92] shadow-md dark:shadow-slate-900 overflow-hidden'>
       <div className=' md:max-w-md mb-10 md:mb-0 md:ml-[5%] text-center md:text-left text-sm md:text-base ' >
-        <h1 className= 'my-6 md:mt-0 text-4xl md:text-7xl font-bold text-blue-900 dark:text-[#c0d6e4]'> Eco Vision </h1>
+        <h1 className= 'my-6 md:mt-0 text-4xl md:text-7xl font-bold text-blue-900 dark:text-[#c0d6e4]'> {t("home.title")}</h1>
         <p className='mx-6 md:mx-0'>
-        Il riscaldamento globale è un fenomeno che riguarda l{"'"}aumento delle temperature medie
-          terrestri. <br />
-          <br />
-          Questo fenomeno ha gravi ripercussioni sul nostro pianeta,
-          causando scioglimento dei ghiacciai, innalzamento del livello del mare e
-          cambiamenti climatici estremi. <br />
-          <br />
-          È essenziale monitorare e comprendere questi dati
-          per prendere misure preventive. 
+        <Trans i18nKey="home.description" components={{ 0: <br />, 1: <br /> }} />
           </p>
       </div>
 

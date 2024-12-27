@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { LineChart } from '../components/LineChart';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTemperatureHigh, faWater, faFlask, faHandsHelping, faExclamationTriangle, faFish, faShip, faLeaf } from '@fortawesome/free-solid-svg-icons';
-
+import { useTranslation } from "react-i18next";
 // Funzione per fetch dei dati dall'API Ocean Warming
 const fetchData = async () => {
   try {
@@ -67,6 +67,8 @@ const Solutions = () => (
 
 // Componente principale
 export const Ocean = () => {
+  const { t } = useTranslation();
+ 
   const [oceanData, setOceanData] = useState({
     labels: [],
     datasets: [

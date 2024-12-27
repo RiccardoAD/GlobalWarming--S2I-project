@@ -3,8 +3,8 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend';
 
-import enLang from '../public/locales/en.json'
-import itLang from '../public/locales/it.json'
+import enLang from './locales/en.json'
+import itLang from './locales/it.json'
 
 
 // the translations
