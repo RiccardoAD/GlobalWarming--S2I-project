@@ -12,7 +12,7 @@ import { Sidebar } from './components/SideBar';
 import PropTypes from 'prop-types';
 
 
-import  {Home} from './pages/home';
+import  {Home} from './pages/Home';
 import { Co2 } from './pages/Co2';
 import { Temperature } from './pages/Temperature';
 import { No2 } from './pages/No2';
