@@ -19,8 +19,12 @@ import { No2 } from './pages/No2';
 import { Methane } from './pages/Methane';
 import { Ocean } from './pages/Ocean';
 
+import './utils/i18n';
+import { useTranslation } from 'react-i18next';
 
 function App() {
+
+  const { i18n } = useTranslation();
   const [darkMode, setDarkMode] = useState(false);
 
   const [showSidebar, setShowSidebar] = useState(window.innerWidth > 768 ? true : false);
@@ -87,7 +91,24 @@ function App() {
                 />
               </div>
 
-               {/* aggiungi cambio linua icone  */}
+               
+
+ <div className="flex items-center gap-4">
+                <img 
+                  src="./assets/img/italy.png"
+                  alt="Italiano"
+                  className="w-6 h-6 cursor-pointer"
+                  onClick={() => i18n.changeLanguage('it')} 
+                />
+                <img
+                  src="./assets/img/uk.png" 
+                  alt="English"
+                  className="w-6 h-6 cursor-pointer"
+                  onClick={() => i18n.changeLanguage('en')} 
+                />
+              </div>
+
+
             </div>
 
 
