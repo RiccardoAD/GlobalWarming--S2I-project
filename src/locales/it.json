@@ -1,24 +1,96 @@
 {
-    "home": {
-      "title": "Eco Vision",
-      "description": "Il riscaldamento globale è un fenomeno che riguarda l'aumento delle temperature medie terrestri. Questo fenomeno ha gravi ripercussioni sul nostro pianeta, causando scioglimento dei ghiacciai, innalzamento del livello del mare e cambiamenti climatici estremi. È essenziale monitorare e comprendere questi dati per prendere misure preventive."
-    },
-    "co2": {
-      "title": "Livelli di CO2",
-      "description": "L'eccesso di CO2 nell'atmosfera è una delle principali cause del cambiamento climatico. Questo gas serra trattiene il calore nell'atmosfera, portando a un aumento delle temperature globali.",
-      "impactsTitle": "Impatti",
-      "solutionsTitle": "Soluzioni",
-      "impacts": [
-        "Acidificazione degli oceani",
-        "Scioglimento dei ghiacciai e innalzamento del livello del mare",
-        "Eventi climatici estremi come uragani e siccità",
-        "Perdita di biodiversità"
-      ],
-      "solutions": [
-        "Limitare le emissioni di CO2 attraverso politiche ambientali",
-        "Promuovere l'uso di energie rinnovabili",
-        "Supportare la cattura e lo stoccaggio del carbonio",
-        "Adottare stili di vita e modelli di consumo sostenibili"
-      ]
-    }
+  "home": {
+    "title": "Eco Vision",
+    "description": "Il riscaldamento globale è un fenomeno che riguarda l'aumento delle temperature medie terrestri. Ha gravi ripercussioni sul nostro pianeta, causando scioglimento dei ghiacciai, innalzamento del livello del mare e cambiamenti climatici estremi. Monitorare e comprendere questi dati è essenziale per prendere misure preventive."
+  },
+  "co2": {
+    "title": "Livelli di CO2",
+    "description": "L'eccesso di CO2 nell'atmosfera è una delle principali cause del cambiamento climatico. Questo gas serra trattiene il calore nell'atmosfera, portando a un aumento delle temperature globali.",
+    "impactsTitle": "Impatti",
+    "solutionsTitle": "Soluzioni",
+    "impacts": [
+      "Acidificazione degli oceani",
+      "Scioglimento dei ghiacciai e innalzamento del livello del mare",
+      "Eventi climatici estremi come uragani e siccità",
+      "Perdita di biodiversità"
+    ],
+    "solutions": [
+      "Limitare le emissioni di CO2 attraverso politiche ambientali",
+      "Promuovere l'uso di energie rinnovabili",
+      "Supportare la cattura e lo stoccaggio del carbonio",
+      "Adottare stili di vita e modelli di consumo sostenibili"
+    ]
+  },
+  "methane": {
+    "title": "Emissioni di Metano",
+    "description": "Il metano è un potente gas serra con un potenziale di riscaldamento molto maggiore rispetto alla CO2. È emesso principalmente attraverso l'agricoltura, la produzione di combustibili fossili e la decomposizione di rifiuti organici.",
+    "impactsTitle": "Impatti",
+    "solutionsTitle": "Soluzioni",
+    "impacts": [
+      "Amplificazione dell'effetto serra",
+      "Contributo all'acidificazione degli oceani",
+      "Alterazione dei cicli naturali degli ecosistemi",
+      "Impatti sulla salute umana dovuti all'inquinamento atmosferico"
+    ],
+    "solutions": [
+      "Limitare le emissioni di metano attraverso politiche ambientali",
+      "Adottare tecnologie di cattura e stoccaggio del metano",
+      "Promuovere pratiche agricole sostenibili",
+      "Implementare la gestione dei rifiuti per ridurre la decomposizione anaerobica"
+    ]
+  },
+  "no2": {
+    "title": "Emissioni di Ossidi di Azoto",
+    "description": "Gli ossidi di azoto (NO2) sono potenti gas serra emessi principalmente attraverso attività agricole e processi industriali.",
+    "impactsTitle": "Impatti",
+    "solutionsTitle": "Soluzioni",
+    "impacts": [
+      "Contributo all'effetto serra",
+      "Formazione di smog e piogge acide",
+      "Effetti negativi sulla salute respiratoria",
+      "Danneggiamento della vegetazione e degli ecosistemi acquatici"
+    ],
+    "solutions": [
+      "Limitare le emissioni di NO2 attraverso politiche ambientali",
+      "Promuovere l'uso di veicoli a basse emissioni o elettrici",
+      "Adottare tecnologie di filtraggio industriale",
+      "Educare la popolazione sui rischi associati agli ossidi di azoto"
+    ]
+  },
+  "temperature": {
+    "title": "Aumento delle Temperature Globali",
+    "description": "Il riscaldamento globale si riferisce all'aumento della temperatura media della superficie terrestre, degli oceani e dell'atmosfera causato principalmente dalle attività umane.",
+    "impactsTitle": "Impatti",
+    "solutionsTitle": "Soluzioni",
+    "impacts": [
+      "Estinzione di specie",
+      "Riduzione delle risorse idriche",
+      "Danneggiamento degli ecosistemi marini",
+      "Aumento delle malattie trasmesse da vettori come la malaria"
+    ],
+    "solutions": [
+      "Ridurre le emissioni di gas serra",
+      "Utilizzare energie rinnovabili come solare ed eolico",
+      "Rimboschire e conservare le foreste",
+      "Adottare pratiche agricole sostenibili"
+    ]
+  },
+  "ocean": {
+    "title": "Riscaldamento degli Oceani",
+    "description": "Gli oceani regolano la temperatura della Terra assorbendo il calore in eccesso. Tuttavia, le crescenti emissioni stanno causando il riscaldamento degli oceani, riducendo la loro capacità di assorbire calore.",
+    "impactsTitle": "Impatti",
+    "solutionsTitle": "Soluzioni",
+    "impacts": [
+      "Innalzamento del livello del mare dovuto all'espansione termica",
+      "Perdita di biodiversità marina e migrazione delle specie",
+      "Acidificazione degli oceani che danneggia coralli ed ecosistemi marini",
+      "Ridotta capacità degli oceani di assorbire calore in eccesso"
+    ],
+    "solutions": [
+      "Investire in tecnologie a basse emissioni",
+      "Ridurre l'impatto ambientale del trasporto marittimo",
+      "Proteggere e ripristinare ecosistemi marini come mangrovie e barriere coralline",
+      "Sensibilizzare l'opinione pubblica sull'importanza degli oceani nel regolare il clima"
+    ]
   }
+}

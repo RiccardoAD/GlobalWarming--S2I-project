@@ -20,5 +20,77 @@
         "Support carbon capture and storage technologies",
         "Adopt sustainable consumption and lifestyles"
       ]
-    }
+    },
+    "methane": {
+    "title": "Methane Emissions",
+    "description": "Methane is a powerful greenhouse gas with a much higher warming potential than CO2. It is emitted mainly through agriculture, fossil fuel production, and organic waste decomposition.",
+    "impactsTitle": "Impacts",
+    "solutionsTitle": "Solutions",
+    "impacts": [
+      "Amplification of the greenhouse effect",
+      "Contribution to ocean acidification",
+      "Disruption of natural ecosystem cycles",
+      "Human health impacts due to air pollution"
+    ],
+    "solutions": [
+      "Limit methane emissions through environmental policies",
+      "Adopt methane capture and storage technologies",
+      "Promote sustainable agricultural practices",
+      "Implement waste management to reduce anaerobic decomposition"
+    ]
+  },
+  "no2": {
+    "title": "Nitrous Oxide Emissions",
+    "description": "Nitrous oxide (N2O) is a potent greenhouse gas primarily emitted through agricultural activities and industrial processes.",
+    "impactsTitle": "Impacts",
+    "solutionsTitle": "Solutions",
+    "impacts": [
+      "Contribution to the greenhouse effect",
+      "Formation of smog and acid rain",
+      "Negative effects on respiratory health",
+      "Damage to vegetation and aquatic ecosystems"
+    ],
+    "solutions": [
+      "Limit NO2 emissions through environmental policies",
+      "Promote the use of low-emission or electric vehicles",
+      "Adopt industrial filtering technologies",
+      "Educate the population on the risks associated with NO2"
+    ]
+  },
+  "temperature": {
+    "title": "Global Temperature Rise",
+    "description": "Global warming refers to the increase in Earth's average surface temperature, oceans, and atmosphere caused mainly by human activities.",
+    "impactsTitle": "Impacts",
+    "solutionsTitle": "Solutions",
+    "impacts": [
+      "Species extinction",
+      "Reduction in water resources",
+      "Marine ecosystem damage",
+      "Increase in vector-borne diseases like malaria"
+    ],
+    "solutions": [
+      "Reduce greenhouse gas emissions",
+      "Use renewable energy like solar and wind",
+      "Reforest and conserve forests",
+      "Adopt sustainable agricultural practices"
+    ]
+  },
+  "ocean": {
+    "title": "Ocean Warming",
+    "description": "Oceans regulate Earth's temperature by absorbing excess heat. However, increasing emissions are causing the oceans to warm, reducing their ability to absorb heat.",
+    "impactsTitle": "Impacts",
+    "solutionsTitle": "Solutions",
+    "impacts": [
+      "Sea-level rise due to thermal expansion",
+      "Marine biodiversity loss and species migration",
+      "Ocean acidification damaging corals and marine ecosystems",
+      "Reduced ocean capacity to absorb excess heat"
+    ],
+    "solutions": [
+      "Invest in low-emission technologies",
+      "Reduce the environmental impact of maritime transport",
+      "Protect and restore marine ecosystems like mangroves and coral reefs",
+      "Raise public awareness about the importance of oceans in regulating climate"
+    ]
   }
+}
